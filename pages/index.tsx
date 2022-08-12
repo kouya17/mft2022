@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className='flex-grow'>
-        <Image src='/MFT2022round.gif' className='w-60 mx-auto mt-10' alt='Maker Faire Tokyo 2022 Logo'></Image>
+        <img src='/MFT2022round.gif' className='w-60 mx-auto mt-10' alt='Maker Faire Tokyo 2022 Logo'></img>
         <h1 className='text-3xl font-bold py-10 text-center'>
           Maker Faire Tokyo 2022<br/>展示内容紹介
         </h1>
