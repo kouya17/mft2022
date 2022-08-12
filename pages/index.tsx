@@ -24,22 +24,26 @@ const Home: NextPage = () => {
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-2 m-5 text-left w-fit mx-auto'>
-          <Link href='/hodai' className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-5 transform transition duration-500 hover:scale-110">
-            <div className="p-5">
-              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                固定砲台型射的ゲームHODAI
-              </h2>
-              <p className="font-normal text-gray-700 dark:text-gray-400">固定砲台を操作して遊ぶ射的ゲーム</p>
-            </div>
+          <Link href='/hodai'>
+            <a className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-5 transform transition duration-500 hover:scale-110">
+              <div className="p-5">
+                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  固定砲台型射的ゲームHODAI
+                </h2>
+                <p className="font-normal text-gray-700 dark:text-gray-400">固定砲台を操作して遊ぶ射的ゲーム</p>
+              </div>
+            </a>
           </Link>
 
-          <Link href='/sshelf' className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-5 transform transition duration-500 hover:scale-110">
-            <div className="p-5">
-              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                SShelf
-              </h2>
-              <p className="font-normal text-gray-700 dark:text-gray-400">中にいれたものを記録・検索できる棚</p>
-            </div>
+          <Link href='/sshelf'>
+            <a className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-5 transform transition duration-500 hover:scale-110">
+              <div className="p-5">
+                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  SShelf
+                </h2>
+                <p className="font-normal text-gray-700 dark:text-gray-400">中にいれたものを記録・検索できる棚</p>
+              </div>
+            </a>
           </Link>
         </div>
       </main>
