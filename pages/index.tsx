@@ -24,7 +24,7 @@ const Home: NextPage = () => {
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-2 m-5 text-left w-fit mx-auto'>
-          <Link href='/hodai'>
+          <Link href='/posts/hodai'>
             <a className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-5 transform transition duration-500 hover:scale-110">
               <div className="p-5">
                 <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -35,7 +35,7 @@ const Home: NextPage = () => {
             </a>
           </Link>
 
-          <Link href='/sshelf'>
+          <Link href='/posts/sshelf'>
             <a className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-5 transform transition duration-500 hover:scale-110">
               <div className="p-5">
                 <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
