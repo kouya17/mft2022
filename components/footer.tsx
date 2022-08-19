@@ -3,7 +3,7 @@ import { FaTwitter, FaGithub, FaLink } from 'react-icons/fa';
 
 const Footer: FunctionComponent = ({}) => (
     <div>
-        <div className="flex items-center justify-center">
+        <div className="flex justify-center">
             <a href="https://twitter.com/aoki_kouya"><FaTwitter size={32} color="gray" className="mx-2"/></a>
             <a href="https://github.com/kouya17"><FaGithub size={32} color="gray" className="mx-2"/></a>
             <a href="https://kouya17.com"><FaLink size={32} color="gray" className="mx-2"/></a>

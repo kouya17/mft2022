@@ -1,19 +1,23 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Footer from '../components/footer'
+import Navigation from '../components/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
-    <div className='container mx-auto px-4 flex flex-col min-h-screen'>
+    <div>
       <Head>
         <title>青木晃也 MFT2022 | Home</title>
         <meta name="description" content="青木晃也 MFT2022用ページ" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main className='flex-grow'>
+      <Navigation
+        title="mft2022"
+        menu={[{name: 'HODAI', path: '/posts/hodai'}, {name: 'SShelf', path: '/posts/sshelf'}]}
+      />
+      <main className='flex-grow container mx-auto px-4 flex flex-col min-h-screen'>
         <img src='/MFT2022round.gif' className='w-60 mx-auto mt-10' alt='Maker Faire Tokyo 2022 Logo'></img>
         <h1 className='text-3xl font-bold py-10 text-center'>
           Maker Faire Tokyo 2022<br/>展示内容紹介
