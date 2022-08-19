@@ -12,6 +12,9 @@ const Home: NextPage = () => {
         <title>青木晃也 MFT2022 | Home</title>
         <meta name="description" content="青木晃也 MFT2022用ページ" />
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:title" content="青木晃也 MFT2022 | Home" />
+        <meta property="og:description" content="青木晃也 MFT2022用ページ" />
+        <meta name="twitter:card" content="summary" />
       </Head>
       <Navigation
         title="mft2022"
