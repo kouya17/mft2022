@@ -14,6 +14,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:title" content="青木晃也 MFT2022 | Home" />
         <meta property="og:description" content="青木晃也 MFT2022用ページ" />
+        <meta property="og:image" content="https://mft2022.kouya17.com/MFT2022round.gif" />
         <meta name="twitter:card" content="summary" />
       </Head>
       <Navigation
