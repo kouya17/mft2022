@@ -10,6 +10,10 @@ title: 固定砲台型射的ゲームHODAI
 
 ![全体構成図](/images/whole.jpg)
 
+## 遊び方説明動画
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/thRt6aeg90A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## 各ユニットの説明
 
 ### コントローラー
