@@ -6,13 +6,13 @@ title: 固定砲台型射的ゲームHODAI
 
 固定砲台型射的ゲームHODAIは、砲台を操作して遊ぶ射的ゲームである。"HODAI"と書いて、"ホーダイ"と読む。
 
+## 遊び方説明動画
+
+https://youtu.be/thRt6aeg90A
+
 ## 全体構成図
 
 ![全体構成図](/images/whole.jpg)
-
-## 遊び方説明動画
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/thRt6aeg90A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 各ユニットの説明
 

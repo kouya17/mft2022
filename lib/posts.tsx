@@ -109,5 +109,5 @@ async function matterResultToHtml(matterResult: matter.GrayMatterFile<string>): 
     .use(remarkRehype) // Turn it into HTML.
     .use(rehypeStringify) // Serialize HTML.
     .processSync(matterResult.content)
-  return processedContent.toString()
+  return processedContent.toString().replace('<a href="https://youtu.be/thRt6aeg90A">https://youtu.be/thRt6aeg90A</a>', '<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe style="  position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/thRt6aeg90A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>')
 }
