@@ -21,7 +21,7 @@ export default function Layout({
       </Head>
       <Navigation
         title="mft2022"
-        menu={[{name: 'HODAI', path: '/posts/hodai'}, {name: 'SShelf', path: '/posts/sshelf'}]}
+        menu={[{name: 'HODAI', path: '/posts/hodai-system'}, {name: 'SShelf', path: '/posts/sshelf'}]}
       />
       <div className='container mx-auto px-4'>
         <main>{children}</main>
