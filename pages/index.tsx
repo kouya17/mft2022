@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       </Head>
       <Navigation
         title="mft2022"
-        menu={[{name: 'HODAI', path: '/posts/hodai'}, {name: 'SShelf', path: '/posts/sshelf'}]}
+        menu={[{name: 'HODAI', path: '/posts/hodai-system'}, {name: 'SShelf', path: '/posts/sshelf'}]}
       />
       <main className='flex-grow container mx-auto px-4 flex flex-col min-h-screen'>
         <img src='/MFT2022round.gif' className='w-60 mx-auto mt-10' alt='Maker Faire Tokyo 2022 Logo'></img>
