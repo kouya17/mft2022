@@ -12,10 +12,7 @@ const PostDetail = ({ postData }: PostDetailProps) => {
   });
 
   return (
-    <div className="prose">
-      <h1 className="text-3xl font-bold mt-5 mb-3">
-        {postData.fileData.matter.title}
-      </h1>
+    <div className="prose dark:prose-dark">
       <div className="line-numbers my-5">
         <div dangerouslySetInnerHTML={{ __html: postData.fileData.contentHtml }} />
       </div>

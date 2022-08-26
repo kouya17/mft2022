@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className='dark:bg-gray-800 dark:text-gray-200'>
       <Head>
         <title>青木晃也 MFT2022 | Home</title>
         <meta name="description" content="青木晃也 MFT2022用ページ" />
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
           <Link href='/posts/hodai-system'>
             <a className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-5 transform transition duration-500 hover:scale-110">
               <div className="p-5">
-                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-200">
                   固定砲台型射的ゲームHODAI
                 </h2>
                 <p className="font-normal text-gray-700 dark:text-gray-400">固定砲台を操作して遊ぶ射的ゲーム</p>
@@ -44,7 +44,7 @@ const Home: NextPage = () => {
           <Link href='/posts/sshelf'>
             <a className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-5 transform transition duration-500 hover:scale-110">
               <div className="p-5">
-                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-200">
                   SShelf
                 </h2>
                 <p className="font-normal text-gray-700 dark:text-gray-400">中にいれたものを記録・検索できる棚</p>

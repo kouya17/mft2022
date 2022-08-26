@@ -1,3 +1,7 @@
+---
+title: SShelf
+---
+
 # SShelf
 
 名前は Searchable Shelf を省略して SShelf 。初見でかなり読みずらいと思うが"エスシェルフ"と読むことにする。

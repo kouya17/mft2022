@@ -9,7 +9,7 @@ export default function Layout({
   children: React.ReactNode
 }) {
   return (
-    <div>
+    <div className='dark:bg-gray-800 dark:text-white'>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta

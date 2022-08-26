@@ -8,7 +8,7 @@ interface NavigationProps {
 }
 
 const Navigation: FunctionComponent<NavigationProps> = ({ title, menu }) => (
-  <nav className="bg-white border-b-2 border-gray-300 px-2 py-2.5 dark:bg-gray-900 sticky top-0 z-50">
+  <nav className="bg-white border-b border-gray-200 dark:border-gray-600 px-2 py-2.5 dark:bg-gray-900 sticky top-0 z-50">
     <div className="container px-5 flex flex-wrap justify-between items-center mx-auto">
       <Link href="/">
         <a className="flex items-center">
